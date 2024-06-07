@@ -5,16 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
         body{
-           font: ;
+           font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+           font-size: 1em;
+        }
+
+        /*
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+        
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente = 1em
+
+        lighter/ normal/ bold/ bolder
+
+        shorthand = font > font-style >
+        font-weight > font-size > font-family
+    
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        */
+
+        h1{
+            font: italic bolder 3em 'Work Sans', sans-serif;
         }
     </style>
 </head>
 <body>
     <h1>Trabalhando com fontes</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis, molestias porro enim sed dolorem nam maiores laudantium, laborum perspiciatis odio doloremque. Modi, officiis cupiditate accusantium delectus et impedit odio.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, doloremque illo! Ea porro laborum quis veritatis illum nam recusandae voluptates eaque et, hic, dicta illo. Dignissimos laboriosam alias officiis culpa!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolores culpa ipsam vel rerum aperiam, optio odit? Aut, ad! Nisi minima sunt alias aperiam iure odio minus quas nesciunt eligendi?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus quos odit, ab eius quidem molestias soluta, nulla officiis assumenda cupiditate impedit ducimus mollitia velit optio illum delectus labore animi.
-    </p><h2>Subtitulo do exercício</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quae natus cum tempore nihil repellat asperiores ad, inventore ducimus, vero sapiente nostrum veniam sit illum corrupti, corporis eveniet est autem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis, molestias porro enim sed dolorem nam maiores laudantium, laborum perspiciatis odio doloremque. Modi, officiis cupiditate accusantium delectus et impedit odio.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, doloremque illo! Ea porro laborum quis veritatis illum nam recusandae voluptates eaque et, hic, dicta illo. Dignissimos laboriosam alias officiis culpa!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolores culpa ipsam vel rerum aperiam, optio odit? Aut, ad! Nisi minima sunt alias aperiam iure odio minus quas nesciunt eligendi?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus quos odit, ab eius quidem molestias soluta, nulla officiis assumenda cupiditate impedit ducimus mollitia velit optio illum delectus labore animi.</p>
+    <h2>Subtitulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quae natus cum tempore nihil repellat asperiores ad, inventore ducimus, vero sapiente nostrum veniam sit illum corrupti, corporis eveniet est autem.</p>
 </body>
 </html>
